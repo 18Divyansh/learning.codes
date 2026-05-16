@@ -1,7 +1,9 @@
+x = int(input("what is x ?"))
+y = int(input("what is y ?"))
+
 def sum():
-    x = int(input(" what is x ? "))
-    y = int(input(" what is y ? "))
-    print( x + y)
+    return x + y
 
 
-sum()
+result = sum()
+print("the sum is:" , result)
