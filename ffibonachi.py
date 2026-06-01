@@ -10,10 +10,5 @@ def print_fibonacci(n):
         
     print() 
 
-
-
 limit = int(input("Print Fibonacci numbers up to what number? "))
-
-
-
 print_fibonacci(limit)
